@@ -1,0 +1,29 @@
+body{
+    background-size: cover;
+}
+h1{
+    width:100%;
+    margin: 0px;
+}
+.copyright-footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color:gray ;
+    width: 100%;
+    line-height: 30px;
+}
+canvas{
+    border-style: ridge;
+    border-radius: 20px;
+    margin-top: 180px;
+    border-width: 5px;
+    border-color: white;
+    animation-name: h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes h{
+    to{box-shadow: 5px 5px 15px black;}
+    from{box-shadow: 5px 5px 15px grey;}
+}
